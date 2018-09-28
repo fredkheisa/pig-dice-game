@@ -1,8 +1,50 @@
 body {
     background-image: url("../images/background\ .jpg");
+   
 
  }
 
  jumbotron {
-     top: 900px;
+     position: absolute;
+     top: 9000%;
+   
+     /* background-color: rgba(0,0,0,.4); */
  }
+ h1{
+     font-family: 'Notable', sans-serif;
+ }
+ h2{
+     font-family: 'Monoton', cursive;
+ }
+ .move{
+     transform: translate(3%,90%);
+     /* opacity: .4; */
+     background-color: rgba(211, 204, 204, 0.7);
+     display: none;
+ }
+ p{
+     position: center;
+ }
+ .img{
+     size: 100%;
+ }
+ 
+.form-group{
+    position: absolute;
+    transform: translate(200%,400%);
+}
+.text-box {
+    text-align: center;
+    transform: translate();
+    font-family: 'Notable', sans-serif;
+    background color :white;
+    color:white;    
+}
+
+.text-box2 {
+    text-align: center;
+    transform: translate();
+    font-family: 'Notable', sans-serif;
+    background color :white;
+    color:white;    
+}

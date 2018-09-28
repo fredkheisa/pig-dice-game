@@ -4,26 +4,37 @@
 <head>
     <title>PIG DICE GAME</title>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Audiowide|Notable|Sigmar+One|Ultra" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="jumbotron">
-            <h1>PIG DICE GAME</h1>
-            <h2>GAME MODE</h2>
-            <p>
-                <button type="button" class="btn btn-success btn-lg">PLAY NOW</button>
-                <button type="button" class="btn btn-danger">PLAY LATER</button>
-
-            </p>
+        <div class="container bg-danger height: 14px;">
+            <div class="jumbotron move">
+                <h1>PIG DICE GAME</h1>
+                <h2>GAME MODE</h2>
+                <p>
+                    <button type="button" class="btn btn-success btn-lg">PLAY NOW</button>
+                    <button type="button" class="btn btn-danger btn2">PLAY LATER</button></p>
+            </div>
         </div>
+        <div class="text-box">
+            <h2>PAYER NAMES</h2>
+            <p>PLAYER 1 <input type="text" class="form-control col" id="player1"></p>
+            <p>PLAYER 2 <input type="text" class="form-control col-6" id="playe2"></p>
+            <button type="button" class="btn btn-primary" id="users">CONTINUE.</button>
+        </div>
+        <div class="text-box2">
+            <h2>ENTER YOUR NUMBER</h2>
+            <p>PLAYER1 <input type="text" class="form-control col" id="dice"></p>
+        </div>
+        <button type="button" class="btn btn-primary" id="add">ANOTHER ROLL</button>
     </div>
-
 </body>
 
 </html>
