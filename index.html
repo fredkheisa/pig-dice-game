@@ -14,26 +14,23 @@
 
 <body>
     <div class="container">
-        <div class="container bg-danger height: 14px;">
-            <div class="jumbotron move">
-                <h1>PIG DICE GAME</h1>
-                <h2>GAME MODE</h2>
-                <p>
-                    <button type="button" class="btn btn-success btn-lg">PLAY NOW</button>
-                    <button type="button" class="btn btn-danger btn2">PLAY LATER</button></p>
-            </div>
+
+        <div class="jumbotron move">
+            <h1>PIG DICE GAME</h1>
+            <h2>GAME MODE</h2>
+            <p>
+                <button type="button" class="btn btn-success btn-lg">PLAY NOW</button>
+                <button type="button" class="btn btn-danger btn2">PLAY LATER</button></p>
         </div>
         <div class="text-box">
-            <h2>PAYER NAMES</h2>
-            <p>PLAYER 1 <input type="text" class="form-control col" id="player1"></p>
-            <p>PLAYER 2 <input type="text" class="form-control col-6" id="playe2"></p>
-            <button type="button" class="btn btn-primary" id="users">CONTINUE.</button>
+            <h2>lets start with user 1 </h2>
+            <p>USER 1 <input type="text" id="player1"> </p>
+            <p>USER 2 <input type="text" id="player2"> </p>
         </div>
-        <div class="text-box2">
-            <h2>ENTER YOUR NUMBER</h2>
-            <p>PLAYER1 <input type="text" class="form-control col" id="dice"></p>
+        <input type="button" class="btn btn-success" value="ROLL DICE!!" onclick="add()">
+        <div id="fifth-p " class="done ">
+            <p id="correctNumber "> Your Score Is :</p>
         </div>
-        <button type="button" class="btn btn-primary" id="add">ANOTHER ROLL</button>
     </div>
 </body>
 

@@ -1,50 +1,35 @@
+/**********************************************
+*** GENERAL
+**********************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 body {
-    background-image: url("../images/background\ .jpg");
-   
-
- }
-
- jumbotron {
-     position: absolute;
-     top: 9000%;
-   
-     /* background-color: rgba(0,0,0,.4); */
- }
- h1{
-     font-family: 'Notable', sans-serif;
- }
- h2{
-     font-family: 'Monoton', cursive;
- }
- .move{
-     transform: translate(3%,90%);
-     /* opacity: .4; */
-     background-color: rgba(211, 204, 204, 0.7);
-     display: none;
- }
- p{
-     position: center;
- }
- .img{
-     size: 100%;
- }
- 
-.form-group{
-    position: absolute;
-    transform: translate(200%,400%);
-}
-.text-box {
-    text-align: center;
-    transform: translate();
-    font-family: 'Notable', sans-serif;
-    background color :white;
-    color:white;    
+    background: #C9FFBF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
 }
 
-.text-box2 {
-    text-align: center;
-    transform: translate();
-    font-family: 'Notable', sans-serif;
-    background color :white;
-    color:white;    
-}
